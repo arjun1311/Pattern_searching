@@ -23,12 +23,11 @@ int main()
 	for(i = 1;i <= n;i++)
 	{
 		for(j = n; j > n-i;j--)
-		{
-			c = 'A' + j - 1;
-			cout<<c<<" ";
-		}
+			{
+				c = 'A' + j - 1;
+				cout<<c<<" ";
+			}
 		cout<<endl;
 	}
-    
     return 0;
 }
